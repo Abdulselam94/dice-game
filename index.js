@@ -1,7 +1,7 @@
 var randomNum1 = Math.floor(Math.random() * 6 + 1);
-var randomImg1 = "d" + randomNum1 + ".jpg";
+var randomImg1 = "./assets/d" + randomNum1 + ".jpg";
 var randomNum2 = Math.floor(Math.random() * 6 + 1);
-var randomImg2 = "d" + randomNum2 + ".jpg";
+var randomImg2 = "./assets/d" + randomNum2 + ".jpg";
 
 var image1 = document.querySelectorAll("img")[0];
 image1.setAttribute("src", randomImg1);
