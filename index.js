@@ -14,3 +14,6 @@ if (randomNum1 > randomNum2) {
 } else {
   document.querySelector("h1").innerHTML = "draw!";
 }
+reloadGameButton.addEventListener("click", () => {
+  location.reload();
+});
